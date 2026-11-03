@@ -14,7 +14,7 @@
   <a href="docs/Synthese_projet.pdf"><b>Synthèse en 2 pages</b></a> &nbsp;|&nbsp;
   <a href="docs/Revue_3_Etudiant3.pdf">Revue de projet</a> &nbsp;|&nbsp;
   <a href="docs/Rapport_projet_E6-2.pdf">Rapport complet</a> &nbsp;|&nbsp;
-  <a href="docs/Presentation_projet_Etudiant1.pdf">Présentation</a>
+  <a href="docs/Presentation_projet_Etudiant3.pdf">Présentation</a>
 </p>
 
 Un réseau de stations connectées mesure les vibrations du sol et leur position, puis présente ces relevés sous forme de sismogrammes. C'est le projet technique de l'épreuve E6-2 du **BTS SNIR, session 2023**, réalisé à quatre au lycée Joseph Gaillard de Fort-de-France pour l'entreprise Vision Informatique.
@@ -100,7 +100,7 @@ from(bucket: "iotsismique")
 <p align="center">
   <img src="docs/images/acquisition-sismogramme.png" alt="Signal du géophone affiché pendant la validation de l'acquisition" width="760">
   <br>
-  <em>Validation de l'acquisition par Étudiant 1 : le signal du géophone SM-24 en sortie du convertisseur ADS1115.</em>
+  <em>Validation de l'acquisition : le signal du géophone SM-24 en sortie du convertisseur ADS1115.</em>
 </p>
 
 ## Les compétences mises en œuvre
@@ -121,7 +121,7 @@ from(bucket: "iotsismique")
 | **Synthèse** | Le projet, ma contribution et le résultat | 2 min | [PDF](docs/Synthese_projet.pdf) |
 | **Revue de projet** (Étudiant 3) | Ma partie pas à pas : besoin, UML, requêtes, graphique, MQTT, tablette | 10 min | [PDF](docs/Revue_3_Etudiant3.pdf), [PowerPoint](docs/Revue_3_Etudiant3.pptx) |
 | **Rapport de projet** (Étudiant 3) | Le dossier d'examen, avec les extraits de code et les résultats | 30 min | [PDF](docs/Rapport_projet_E6-2.pdf) |
-| **Présentation de projet** (Étudiant 1) | La partie capteur : géophone, ADS1115, enregistrement dans les deux bases | 10 min | [PDF](docs/Presentation_projet_Etudiant1.pdf), [PowerPoint](docs/Presentation_projet_Etudiant1.pptx) |
+| **Présentation de projet** (Étudiant 3) | La partie capteur : géophone, ADS1115, enregistrement dans les deux bases | 10 min | [PDF](docs/Presentation_projet_Etudiant3.pdf), [PowerPoint](docs/Presentation_projet_Etudiant3.pptx) |
 
 Le jeton d'accès à la base et les identifiants visibles sur certaines captures sont masqués. Le reste des documents est identique aux originaux.
 
@@ -129,8 +129,7 @@ Le jeton d'accès à la base et les identifiants visibles sur certaines captures
 
 | | Rôle | Sous-système |
 |---|---|---|
-| Étudiant 1 | Géophone, convertisseur, enregistrement des mesures | Acquisition et externalisation |
-| Étudiant 2 | Position GPS de la station | Acquisition et externalisation |
+| Étudiants 1 et 2 | Géophone, convertisseur, enregistrement des mesures, position GPS | Acquisition et externalisation |
 | **Étudiant 3, [Steven](https://github.com/Clemenx972)** | **Application de supervision, requêtes, graphique, MQTT** | **Supervision locale** |
 | Étudiant 4 | Demande et réception des données à distance | Supervision distante |
 
